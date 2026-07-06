@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body data-aos-easing="ease-in-out" ,data-aos-duration="600" ,data-aos-delay="0">
+
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>Yummy .</h2>
+            </div>
+
+            <div class="nav-items">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about"> about</a></li>
+                    <li><a href="#menu">menu</a></li>
+                    <li><a href="#events">events</a></li>
+                    <li><a href="#chefs">chefs</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li>
+                        <a href="#">dropdown  </a>
+                        <ul class="dropdown">
+                            <li><a href="#home">dropdown 1</a></li>
+                            <li><a href="#home">dropdown 2</a></li>
+                            <li><a href="#home">dropdown 3</a></li>
+                            <li><a href="#home">dropdown 4</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-btn">
+                <button>Book a Table</button>
+            </div>
+        </nav>
+        <div class="secondnav">
+            <div class="second" style="display: flex; justify-content:  space-between; margin: 0 10px 0 10px;">
+                <div class="k">
+                    <i onclick="showsecondnav()" class="fa-solid fa-bars" style="color: black; font-size: 40px; text-align: center; margin-top: 20px;"></i>
+                </div>
+                <div class="logo">
+                    <h2>YUMMY .</h2>
+                </div>
+                <div class="nav-btn">
+                    <button>Book a Table</button>
+                </div>
+            </div>
+
+
+            <div class="sidebar" style="background-color: pink;">
+                <li class="cross"><i onclick="hidesecondnav()" class="fa-solid fa-xmark"
+                        style="font-size: 40px; color: aliceblue;"></i></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about"> about</a></li>
+                <li><a href="#menu">menu</a></li>
+                <li><a href="#events">events</a></li>
+                <li><a href="#chefs">chefs</a></li>
+                <li><a href="#gallery">gallery</a></li>
+                <li><a href="#">dropdown </a></li>
+                <li class="contact"><a href="#contact">contact</a></li>
+
+            </div>
+        </div>
+    </header>
+
+
+    <section id="home">
+        <div class="homeleft">
+            <h1 data-aos="fade-up" style="opacity: 1;">ENJOY YOUR HEALTHY DELICIOUS FOOD</h1>
+            <P>Fresh ingredients, bold flavors, and recipes crafted with care — every plate is made to satisfy your cravings.</P>
+            <div class="homeleft-row">
+                <button>Book a Table</button>
+                <div class="watchvedio">
+                    <i class="far fa-clock"></i>
+                    <span>watch vedio</span>
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="./assets/menu-item-1.png" alt="" srcset="">
+        </div>
+    </section>
+    <section id="about">
+        <div class="abouthead" data-aos="fade-up" data-aos-delay="100">
+            <h4>about</h4>
+            <h2>learn more about us</h2>
+        </div>
+        <div class="aboutcontent">
+            <div class="aboutleft" data-aos="fade-up" data-aos-delay="100" style="opacity: 1;">
+                <div class="aboutimg">
+                    <img src="./assets/about.jpg" alt="" srcset="">
+                </div>
+                <div class="left-box">
+                    <h4>book your table</h4><br>
+                    <span>+91-859-7895</span>
+
+                </div>
+            </div>
+            <div class="aboutright" data-aos="fade-up" data-aos-delay="250">
+                <p>At Yummy, every dish tells a story. Our chefs blend traditional recipes with modern techniques to bring you flavors that are both comforting and exciting. From the moment you walk in, we want you to feel right at home.</p>
+                <ul>
+                    <li>
+                        <i class="far fa-check-circle"></i>
+                        <span>We source only the freshest, locally grown ingredients to make sure every meal is packed with flavor and nutrition.</span>
+                    </li>
+
+
+                    <li>
+                        <i class="far fa-check-circle"></i>
+                        <span>Our experienced culinary team takes pride in crafting dishes that balance taste, presentation, and quality.</span>
+                    </li>
+
+
+                    <li>
+                        <i class="far fa-check-circle"></i>
+                        <span>Whether it's a family dinner or a special celebration, we're here to make every visit memorable.</span>
+                    </li>
+                </ul>
+                <p>Our warm and welcoming atmosphere is designed for you to relax and enjoy great food with the people who matter most. Come see why so many guests keep coming back for more.</p>
+                <div class="aboutrightimg">
+                    <img src="./assets/about-2.jpg" alt="" srcset="" width="500px">
+                </div>
+            </div>
+        </div>
+
+        <div class="aboutcards" data-aos="fade-up" data-aos-delay="200">
+            <div class="about-card-1">
+                <h2>why choose <br> Yummy</h2>
+                <p>We believe great food starts with great ingredients. Every dish on our menu is prepared fresh daily by our skilled chefs, using recipes that have been perfected over years of passion and dedication to the craft of cooking.</p>
+                <button>learn more <b>></b> </button>
+            </div>
+            <div class="about-card-2">
+                <div class="about-card-2-cont">
+                    <div class="icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+
+                    <h2>flavors from around the world</h2>
+                    <p>Our menu brings together dishes inspired by cuisines from across the globe, all prepared with a local touch.</p>
+                </div>
+            </div>
+            <div class="about-card-2" data-aos="fade-up" data-aos-delay="300">
+                <div class="about-card-2-cont">
+                    <div class="icon">
+                        <i class="fas fa-image"></i>
+                    </div>
+
+                    <h2>a dining experience to remember</h2>
+                    <p>From our cozy interior to our carefully plated dishes, every detail is designed with you in mind.</p>
+                </div>
+            </div>
+            <div class="about-card-2" data-aos="fade-up" data-aos-delay="400">
+                <div class="about-card-2-cont">
+                    <div class="icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+
+                    <h2>quality you can taste</h2>
+                    <p>We never compromise on quality, ensuring every bite meets our high standards of freshness and flavor.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="counter-box">
+                <div class="number" data-target="150">0</div>
+                <div class="title">Users</div>
+            </div>
+            <div class="counter-box">
+                <div class="number" data-target="200">0</div>
+                <div class="title">Projects</div>
+            </div>
+            <div class="counter-box">
+                <div class="number" data-target="300">0</div>
+                <div class="title">Clients</div>
+            </div>
+            <div class="counter-box">
+                <div class="number" data-target="250">0</div>
+                <div class="title">Sales</div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="menu">
+        <div class="abouthead" data-aos="fade-up" data-aos-delay="100">
+            <h4>MENU</h4>
+            <h2>CHECK OUR YUMMY MENU</h2>
+        </div>
+        <div class="menu-nav" style="border: none;">
+            <ul class="nav-links">
+                <li><a class="active" onclick="showMenu('starters', this)">Starters</a></li>
+                <li><a onclick="showMenu('breakfast', this)">Breakfast</a></li>
+                <li><a onclick="showMenu('lunch', this)">Lunch</a></li>
+                <li><a onclick="showMenu('dinner', this)">Dinner</a></li>
+            </ul>
+        </div>
+
+        <div id="starters" class="menu-items active row">
+             <div class="menuhead">
+                <h2>menu</h2>
+                <h1>starters</h1>
+             </div>
+            <div class="start1">
+                <div class="col-md-4">
+                    <img src="./assets/menu-item-1.png" alt="" srcset="" width="200px">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>Crispy on the outside, tender on the inside — the perfect way to start your meal.</P>
+                    <span>$5.95</span>
+                </div>
+                <div class="col-md-4"><img src="./assets/menu-item-2.png" alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>A light and flavorful bite made with fresh herbs and seasonal vegetables.</P>
+                    <span>$5.95</span>
+                </div>
+                <div class="col-md-4"> <img src="./assets/menu-item-3.png" alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>Our signature starter, packed with rich flavor and a satisfying crunch.</P>
+                    <span>$5.95</span>
+                </div>
+            </div>
+
+            <div class="start1">
+                <div class="col-md-4">
+                    <img src="./assets/menu-item-4.png" alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>A savory appetizer prepared fresh, perfect for sharing with friends.</P>
+                    <span>$5.95</span>
+                </div>
+                <div class="col-md-4"><img src="./assets/menu-item-5.png " alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>Bold spices and fresh ingredients come together in this favorite starter.</P>
+                    <span>$5.95</span>
+                </div>
+                <div class="col-md-4"> <img src="./assets/menu-item-6.png" alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>A classic dish reinvented with a modern twist and vibrant flavors.</P>
+                    <span>$5.95</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="breakfast" class="menu-items row">
+            <div class="menuhead">
+                <h2>menu</h2>
+                <h1> breakfast</h1>
+             </div>
+            <div class="start1">
+                <div class="col-md-4">
+                    <img src="./assets/menu-item-1.png" alt="" srcset="" width="200px">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>Start your morning right with our hearty, freshly prepared breakfast plate.</P>
+                    <span>$5.95</span>
+                </div>
+                <div class="col-md-4"><img src="./assets/menu-item-2.png" alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>A light and wholesome option made with fresh eggs and seasonal produce.</P>
+                    <span>$5.95</span>
+                </div>
+                <div class="col-md-4"> <img src="./assets/menu-item-3.png" alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>Warm, comforting, and full of flavor — a breakfast favorite among our guests.</P>
+                    <span>$5.95</span>
+                </div>
+            </div>
+
+            <div class="start1">
+                <div class="col-md-4">
+                    <img src="./assets/menu-item-4.png" alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>A classic breakfast dish made with love and the freshest ingredients.</P>
+                    <span>$5.95</span>
+                </div>
+                <div class="col-md-4"><img src="./assets/menu-item-5.png " alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>Perfectly balanced flavors to fuel your day, made fresh every morning.</P>
+                    <span>$5.95</span>
+                </div>
+                <div class="col-md-4"> <img src="./assets/menu-item-6.png" alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>A hearty option packed with protein and rich, satisfying flavor.</P>
+                    <span>$5.95</span>
+                </div>
+            </div>
+        </div>
+        <div id="lunch" class="menu-items row">
+            <div class="menuhead">
+                <h2>menu</h2>
+                <h1> lunch</h1>
+             </div>
+            <div class="start1">
+                <div class="col-md-4">
+                    <img src="./assets/menu-item-1.png" alt="" srcset="" width="200px">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>A satisfying midday meal made with fresh, seasonal ingredients.</P>
+                    <span>$5.95</span>
+                </div>
+                <div class="col-md-4"><img src="./assets/menu-item-2.png" alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>Light yet filling, this dish is a favorite among our lunch guests.</P>
+                    <span>$5.95</span>
+                </div>
+                <div class="col-md-4"> <img src="./assets/menu-item-3.png" alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>A flavorful lunch option that's quick to serve but rich in taste.</P>
+                    <span>$5.95</span>
+                </div>
+            </div>
+
+            <div class="start1">
+                <div class="col-md-4">
+                    <img src="./assets/menu-item-4.png" alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>Freshly prepared with quality ingredients, ideal for a mid-day break.</P>
+                    <span>$5.95</span>
+                </div>
+                <div class="col-md-4">
+                    <img src="./assets/menu-item-5.png " alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>A well-balanced dish combining texture, spice, and freshness.</P>
+                    <span>$5.95</span>
+                </div>
+                <div class="col-md-4">
+                     <img src="./assets/menu-item-6.png" alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>Rich flavors and generous portions make this a lunch favorite.</P>
+                    <span>$5.95</span>
+                </div>
+            </div>
+        </div>
+        <div id="dinner" class="menu-items row">
+            <div class="menuhead">
+                <h2>menu</h2>
+                <h1> dinner</h1>
+             </div>
+            <div class="start1">
+                <div class="col-md-4">
+                    <img src="./assets/menu-item-1.png" alt="" srcset="" width="200px">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>End your day with a rich, satisfying dinner made just for you.</P>
+                    <span>$5.95</span>
+                </div>
+                <div class="col-md-4"><img src="./assets/menu-item-2.png" alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>A hearty evening dish full of bold flavors and fresh ingredients.</P>
+                    <span>$5.95</span>
+                </div>
+                <div class="col-md-4"> <img src="./assets/menu-item-3.png" alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>A perfect way to wind down the day with a warm, comforting meal.</P>
+                    <span>$5.95</span>
+                </div>
+            </div>
+
+            <div class="start1">
+                <div class="col-md-4">
+                    <img src="./assets/menu-item-4.png" alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>Our chef's special dinner dish, prepared fresh with premium ingredients.</P>
+                    <span>$5.95</span>
+                </div>
+                <div class="col-md-4"><img src="./assets/menu-item-5.png " alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>A rich and flavorful dish perfect for sharing at the dinner table.</P>
+                    <span>$5.95</span>
+                </div>
+                <div class="col-md-4"> <img src="./assets/menu-item-6.png" alt="" srcset="">
+                    <h3>MAGNUM TASTE </h3>
+                    <P>A comforting classic, made fresh every evening for our guests.</P>
+                    <span>$5.95</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonals">
+        <div class="abouthead" data-aos="fade-up" data-aos-delay="100">
+            <h4>testimonals </h4>
+            <h2 style="color:black;"> What are they saying <b style="color: red;">about us</b></h2>
+        </div>
+        <div class="slider-container">
+
+            <div class="slider" id="slider">
+                <div class="slide">
+                    <div class="slide-content">
+                        <span>"</span>
+                        <span>The food here is absolutely amazing! Every dish is bursting with flavor, and the service is always warm and welcoming. This has become our go-to spot for family dinners.</span>
+                        <span>"</span>
+                        <p>john larson</p>
+                        <b>enterpreneur</b>
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <div class="slideimg">
+                        <img src="./assets/testimonials-1.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-content">
+                        <span>"</span>
+                        <span>From the ambiance to the food quality, everything about this place exceeded our expectations. We'll definitely be coming back soon!</span>
+                        <span>"</span>
+                        <p>john larson</p>
+                        <b>enterpreneur</b>
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <div class="slideimg">
+                        <img src="./assets/testimonials-2.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-content">
+                        <span>"</span>
+                        <span>A truly memorable dining experience. The staff was attentive and the flavors were unlike anything we've tried before. Highly recommended!</span>
+                        <span>"</span>
+                        <p>john larson</p>
+                        <b>enterpreneur</b>
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <div class="slideimg">
+                        <img src="./assets/testimonials-3.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-content">
+                        <span>"</span>
+                        <span>Every visit feels special. The chefs clearly put their heart into every dish, and it shows in every bite. This place never disappoints.</span>
+                        <span>"</span>
+                        <p>john larson</p>
+                        <b>enterpreneur</b>
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                    <div class="slideimg">
+                        <img src="./assets/testimonials-4.jpg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="events">
+        <div class="abouthead" data-aos="fade-up" data-aos-delay="100">
+            <h4>EVENTS</h4>
+            <h2 style="margin-bottom: 10px;">OUR EVENTS</h2>
+
+        </div>
+        <div class="swiper swiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+
+                    <div class="content-wrapper">
+                        <img src="./assets/events-1.jpg" alt="" width="500px">
+                        <div class="text-wrapper">
+                            <div class="text">
+                                <span>special</span>
+                                <h4>$4.66</h4>
+                                <p>Join us for a special evening filled with great food, live music, and good company.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="swiper-slide">
+
+                    <div class="content-wrapper">
+                        <img src="./assets/events-2.jpg" alt="" width="500px">
+                        <div class="text-wrapper">
+                            <div class="text">
+                                <span>special</span>
+                                <h4>$4.66</h4>
+                                <p>An unforgettable tasting experience featuring our chef's finest seasonal creations.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+
+                    <div class="content-wrapper">
+                        <img src="./assets/events-1.jpg" alt="" width="500px">
+                        <div class="text-wrapper">
+                            <div class="text">
+                                <span>special</span>
+                                <h4>$4.66</h4>
+                                <p>Bring the whole family for a relaxed evening of comfort food and celebration.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+
+                    <div class="content-wrapper">
+                        <img src="./assets/events-2.jpg" alt="" width="500px">
+                        <div class="text-wrapper">
+                            <div class="text">
+                                <span>special</span>
+                                <h4>$4.66</h4>
+                                <p>A curated menu paired with fine wines, perfect for a night out with friends.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="content-wrapper">
+                        <img src="./assets/events-1.jpg" alt="" width="500px">
+                        <div class="text-wrapper">
+                            <div class="text">
+                                <span>special</span>
+                                <h4>$4.66</h4>
+                                <p>Enjoy live entertainment alongside a menu crafted for the occasion.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="content-wrapper">
+                        <img src="./assets/events-4.jpg" alt="" width="500px">
+                        <div class="text-wrapper">
+                            <div class="text">
+                                <span>special</span>
+                                <h4>$4.66</h4>
+                                <p>A festive gathering with great food, drinks, and an atmosphere to remember.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section id="chefs">
+        <div class="abouthead" data-aos="fade-up" data-aos-delay="30">
+            <h4>CHEFS</h4>
+            <h2 style="margin-bottom: 10px; color: black;">OUR <B style="color: red;">PROFESSIONAL CHEFS</B></h2>
+
+        </div>
+        <div class="containerchefs">
+            <div class="chef">
+                <div class="team-member chef1" data-aos="fade-up" data-aos-delay="40">
+                    <div class="member-img">
+                        <img src="./assets/chefs-1.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>William Anderson</h4>
+                        <span>Cook</span>
+                        <p>With years of experience in the kitchen, William brings passion and precision to every dish he creates, blending classic techniques with creative flair.</p>
+                    </div>
+                </div>
+                <div class="team-member-2  chef1" data-aos="fade-up" data-aos-delay="50">
+                    <div class="member-img">
+                        <img src="./assets/chefs-2.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>William Anderson</h4>
+                        <span>Cook</span>
+                        <p>Known for his attention to detail, William ensures every plate that leaves the kitchen meets the highest standard of quality and taste.</p>
+                    </div>
+                </div>
+                <div class="team-member-3  chef1" data-aos="fade-up" data-aos-delay="60">
+                    <div class="member-img">
+                        <img src="./assets/chefs-3.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>William Anderson</h4>
+                        <span>Cook</span>
+                        <p>A true master of flavor, William's dishes are inspired by both tradition and innovation, delighting guests with every visit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="#book-a-table">
+        <div class="abouthead" data-aos="fade-up" data-aos-delay="30">
+            <h4>booking</h4>
+            <h2 style="margin-bottom: 10px; color: black;">book your <B style="color: red;">stay with us </B></h2>
+
+        </div>
+        <div class="bookcontainer">
+            <div class="bookingimg" data-aos="fade-up" data-aos-delay="40">
+                <img src="./assets/reservation.jpg" alt="" srcset="">
+            </div>
+            <div class="booking-form">
+                <form action=" " class="php-email-form" onsubmit="formdata()">
+                    <div class="form" data-aos="fade-up" data-aos-delay="50">
+                        <div class="row-1">
+
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                required="">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                                required="">
+                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone"
+                                required="">
+                        </div>
+
+                        <div class="row-2">
+                            <input type="date" name="date" class="form-control" id="date" placeholder="Date"
+                                required="">
+                            <input type="time" class="form-control" name="time" id="time" placeholder="Time"
+                                required="">
+                            <input type="number" class="form-control" name="people" id="people"
+                                placeholder="# of people" required="">
+
+                        </div>
+                        <textarea id="meaasage" class="form-control" name="message" rows="5"
+                            placeholder="Message"></textarea>
+
+                        <div class="submit">
+                            <input class="btn" type="submit" value=" book your table">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <DIV class="contact-container">
+            <div class="abouthead" data-aos="fade-up" data-aos-delay="100">
+                <h4>contact</h4>
+                <h2 style="margin-bottom: 10px; color: black;">NEED HELP ? <B style="color: red;">CONTACT US</B></h2>
+
+            </div>
+            <iframe data-aos="fade-up" data-aos-delay="100"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.760531711171!2d74.33999707469445!3d31.475772949345625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919042715f767ad%3A0xb0251034ce47145e!2sARFA%20Tower%2C%20Lahore%20%E2%80%93%20Kasur%20Rd%2C%20Nishtar%20Town%2C%20Lahore%2C%20Pakistan!5e0!3m2!1sen!2s!4v1740548160828!5m2!1sen!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </DIV>
+        <div class="contactyummy"></div>
+        <div class="contact-content" data-aos="fade-up" data-aos-delay="200">
+            <div class="contact-row-1">
+                <div class="address">
+                    <div class="info-item  ">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>A108 Adam Street, New York, NY 535022</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="call">
+                    <div class="info-item ">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p>+1 5589 55488 55</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="contact-row-2">
+                <div class=" emailus">
+                    <div class="info-item ">
+                        <i class="fa-regular fa-envelope"></i>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p>info@example.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hours">
+                    <div class="info-item ">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Opening Hours<br></h3>
+                            <p><strong>Mon-Sat:</strong> 11AM - 23PM; <strong>Sunday:</strong> Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <form action="forms/contact.php" method="post" class="php-email-form aos-init aos-animate" data-aos="fade-up"
+            data-aos-delay="300">
+
+            <div class="form-2">
+                <div class="form-row-1" style="display: flex; justify-content: space-evenly;">
+                    <div class=" text">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                    </div>
+
+                    <div class=" text ">
+                        <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                    </div>
+                </div>
+
+
+                <div class="subject">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class=" text2">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+
+
+                <div class="submit">
+                    <input class="btn" type="submit" value="  send message">
+                </div>
+
+
+            </div>
+        </form>
+    </section>
+    <footer id="footer" class="footer  ">
+
+
+        <div class="footer-row">
+            <div class="col-lg-3 col-md-6 d-flex">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="address-2 ">
+                    <h4>Address</h4>
+                    <p class="para">
+                    <p>A108 Adam Street</p>
+                    <p>New York, NY 535022</p>
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <h4>Contact</h4>
+                    <p class="para">
+                        <strong>Phone:</strong> <span>+1 5589 55488 55</span><br>
+                        <strong>Email:</strong> <span>info@example.com</span><br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex">
+                <i class="fas fa-clock"></i>
+                <div>
+                    <h4>Opening Hours</h4>
+                    <p class="para">
+                        <strong>Mon-Sat:</strong> <span>11AM - 23PM</span><br>
+                        <strong>Sunday</strong>: <span>Closed</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h4 style="font-size: 20px;">Follow Us</h4>
+                <div class="social-links d-flex">
+                    <a href="#" class="twitter"> <i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#" class="google"><i class="fa-brands fa-google  "></i> </a>
+                    <a href="#" class="instagram"><i class="fab fa-instagram "></i> </a>
+                    <a href="#" class="youtube"> <i class=" fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="  copyright  ">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">Yummy</strong> <span>All Rights Reserved</span>
+            </p>
+            <div class="credits">
+
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by 
+                    href="https://themewagon.com">ThemeWagon</a>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300, duration: 1000,
+
+        });
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".swiper-2", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+            speed: 1000,
+            autoplay: {
+                delay: 2000,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+
+                },
+                480: {
+                    slidesPerView: 2,
+
+                },
+                768: {
+                    slidesPerView: 3,
+
+                },
+                1200: {
+                    slidesPerView: 4,
+
+                },
+
+            },
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+# 🍽️ Yummy - Restaurant Website (Responsive Frontend Interface)
+
+## 📌 Project Overview
+**Yummy** is a fully responsive restaurant website built as **Project 1** of the Full Stack Development Internship at **DecodeLabs**. This project focuses on building a clean, user-friendly, and mobile-first frontend interface using **HTML5, CSS3, and JavaScript** — without relying on any frontend frameworks.
+
+The goal was to master the fundamentals of responsive web design: semantic structure, flexible layouts, and interactive UI components that work seamlessly across all screen sizes.
+
+---
+
+## 🎯 Objective
+Create a responsive frontend interface for a simple web application, following DecodeLabs' Project 1 guidelines:
+- Use HTML, CSS, and basic JavaScript
+- Build a responsive layout for different screen sizes
+- Design a clean and user-friendly UI
+- Apply mobile-first, semantic, and accessible development practices
+
+---
+
+## ✨ Features
+- **Responsive Navigation** with a mobile sidebar menu and dropdown
+- **Hero/Home Section** with call-to-action buttons
+- **About Section** with feature highlights and animated counters
+- **Dynamic Menu Tabs** (Starters, Breakfast, Lunch, Dinner) switchable via JavaScript
+- **Testimonials Slider** showcasing customer reviews
+- **Events Carousel** built with Swiper.js
+- **Meet the Chefs** section with team member cards
+- **Table Booking Form** with date, time, and guest count fields
+- **Contact Section** with embedded Google Map and contact form
+- **Footer** with address, contact info, and social links
+- Scroll animations powered by **AOS (Animate On Scroll)**
+- Icons via **Font Awesome**
+
+---
+
+## 🛠️ Tech Stack
+| Technology | Purpose |
+|------------|---------|
+| **HTML5** | Semantic page structure |
+| **CSS3** | Styling, responsive layout (Grid & Flexbox) |
+| **JavaScript** | Menu tab switching, sidebar toggle, counters, interactivity |
+| **AOS.js** | Scroll-based animations |
+| **Swiper.js** | Events carousel/slider |
+| **Font Awesome** | Icons |
+| **Google Fonts** | Typography (Amatic SC) |
+
+---
+
+## 📂 Project Structure
+```
+📦 Yummy-Restaurant-Website
+ ┣ 📜 index.html        # Main HTML file
+ ┣ 📜 style.css          # Main stylesheet
+ ┣ 📜 responsive.css     # Media queries for responsiveness
+ ┣ 📜 script.js          # JavaScript functionality
+ ┗ 📂 assets             # Images (menu items, chefs, testimonials, etc.)
+```
+
+---
+
+## 📱 Responsive Design
+The layout adapts smoothly across:
+- 📱 **Mobile** (small screens) – single-column layout with a slide-in sidebar menu
+- 📟 **Tablet** – adjusted grid and spacing
+- 🖥️ **Desktop** – full multi-column layout with horizontal navigation
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+Just a modern web browser — no build tools or installations required.
+
+### Run Locally
+1. Clone or download this repository
+2. Open the project folder
+3. Launch `index.html` in your browser
+
+```bash
+git clone <your-repo-link>
+cd Yummy-Restaurant-Website
+open index.html
+```
+
+---
+
+## 📖 What I Learned
+- Structuring a webpage using semantic HTML5 landmarks (`header`, `nav`, `section`, `footer`)
+- Building responsive layouts using **CSS Grid** and **Flexbox**
+- Writing JavaScript for interactive UI (tab switching, sidebar toggle, animated counters)
+- Integrating third-party libraries (AOS, Swiper.js, Font Awesome)
+- Designing a clean, accessible, and mobile-first user interface
+
+---
+
+## 👤 Author
+**Intern – Full Stack Development Program**
+DecodeLabs | Batch 2026
+
+📞 +91 89330 06408
+✉️ decodelabs.tech@gmail.com
+🌎 www.decodelabs.tech
+📍 Greater Lucknow, India
+
+---
+
+## 📜 License
+This project was created for educational purposes as part of the DecodeLabs Internship Program.
